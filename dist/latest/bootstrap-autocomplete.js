@@ -845,7 +845,7 @@ var DropdownV4 = /** @class */ (function () {
                     itemHtml = itemText;
                 }
                 var li = $('<a >');
-                li.attr('href', '#')
+                li.attr('href', '#!')
                     .addClass('dropdown-item')
                     .html(itemHtml)
                     .data('item', item);
@@ -855,7 +855,7 @@ var DropdownV4 = /** @class */ (function () {
         else {
             // No results
             var li = $('<a >');
-            li.attr('href', '#')
+            li.attr('href', '#!')
                 .addClass('dropdown-item disabled')
                 .html(this.noResultsText);
             liList.push(li);
